@@ -31,3 +31,5 @@ when you load the project back up, get the latest changes by opening git bash in
 git pull
 
 which will get all the changes for you
+
+If you get a complaint when you try to push, try pulling first, someone else might have made a change meaning you're a commit behind, if you get any further errors, just tell Jacob
