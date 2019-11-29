@@ -37,3 +37,7 @@ git pull
 which will get all the changes for you
 
 If you get a complaint when you try to push, try pulling first, someone else might have made a change meaning you're a commit behind, if you get any further errors, just tell Jacob
+
+You can find further information about git here: https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+
+You only need to know about the following commands: pull, push, commit, add
