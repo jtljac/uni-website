@@ -1,8 +1,14 @@
-Instructions to join:
+# Instructions to join:
 
 create an account here: https://github.com/join
 
 Post your username in the group chat so you can be added as a collaborator
+
+# Git instructions:
+
+get this: https://desktop.github.com/ for a nice gui which does everything for you
+
+# **if you're feeling brave, do this, for a command line interface:**
 
 install git from here: https://git-scm.com/downloads
 
