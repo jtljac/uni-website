@@ -8,6 +8,8 @@ Post your username in the group chat so you can be added as a collaborator
 
 get this: https://desktop.github.com/ for a nice gui which does everything for you
 
+Tutorial: https://idratherbewriting.com/learnapidoc/pubapis_github_desktop_client.html
+
 # **if you're feeling brave, do this, for a command line interface:**
 
 install git from here: https://git-scm.com/downloads
