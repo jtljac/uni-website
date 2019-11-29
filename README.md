@@ -10,7 +10,11 @@ if you're feeling adventurous, gitkraken gives you a simple gui, you can get tha
 
 right click in your documents and click "Open git bash" (or run git bash from your start menu and navigate to your documents)
 
-enter the command: https://github.com/jtljac/uni-website.git to download the project
+enter the command: 
+
+git clone https://github.com/jtljac/uni-website.git 
+
+to download the project
 
 navigate to ./uni-website using cd in the git bash (or close git bash, open the newly created folder in your documents, right click and click open git bash)
 
