@@ -1,0 +1,7 @@
+Xbox:
+xbox original:
+logo: https://xbox.fandom.com/wiki/Xbox_(console)
+
+Playstation
+PS2
+logo:https://commons.wikimedia.org/wiki/File:PlayStation_2_logo.svg
