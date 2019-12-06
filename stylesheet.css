@@ -1,5 +1,5 @@
 #Container {
-	width:1200px;
+	width:80%;
 	height:1000px;
 	margin:auto;
 }
@@ -7,17 +7,17 @@
 .centre {
 	margin:auto;
 	display: block;
-  	margin-left: auto;
+	margin-left: auto;
   	margin-right: auto;
 }
 
 .xboxLogo {
-	width:550px;
+	width:95%;
 	padding-top: 50px;
 }
 
 .ps2Logo {
-	width:550px;
+	width:95%;
 	padding-top: 50px;
 }
 
