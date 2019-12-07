@@ -10,6 +10,16 @@ S Controller: https://commons.wikimedia.org/wiki/File:Xbox-s-controller.jpg
 Xbox 360:
 logo: 
 https://en.wikipedia.org/wiki/File:Xbox_360_full_logo.svg
+Images:
+Original:
+
+Elite:
+
+Arcade: 
+
+S:
+
+E:
 
 Xbox One:
 logo: 
@@ -40,8 +50,3 @@ https://commons.wikimedia.org/wiki/File:PlayStation_3_Logo_neu.svg
 PS4:
 logo: 
 https://commons.wikimedia.org/wiki/File:PlayStation_4_logo_and_wordmark.svg
-
-HomePage:
-Images:
-Scorpio: https://mspoweruser.com/specs-comparison-project-scorpio-vs-xbox-one-playstation-4-pro/
-Controllers: https://imgur.com/gallery/K93Oh
