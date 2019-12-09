@@ -92,7 +92,6 @@ function resizeElements(){
 				}
 			}
 		}
-		console.log(possibleLength);
 
 		var navbar = document.getElementById("navbar");
 		navbar.innerHTML = "";
@@ -119,7 +118,6 @@ function resizeElements(){
 		navItems = parent.getElementsByTagName('*');
 		var i, e;
 		for (i = 0; i < navItems.length; ++i) {
-		console.log(navItems[i].innerHTML + " " + navItems[i].clientWidth);
 	}
 	previousWidth = width;
 }
