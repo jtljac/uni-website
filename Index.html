@@ -4,16 +4,34 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Microsoft vs Sony</title>
 		<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
-		<script src="autoResize.js"></script>		
-		<script src="navbarOpacity.js"></script>
+		<script src="Javascript/autoResize.js"></script>		
+		<script src="Javascript/navbarOpacity.js"></script>
+		<script src="Javascript/parallax.js"></script>
+		<script>
+		window.onscroll = function() {
+			setNavOpacity();
+			doParallax();
+		};
+		</script>
+		
 	</head>
 	<body onresize="resizeElements()" onload="resizeElements()">
 		<nav>
 			<div id="navbar">
 			</div>
 		</nav>
-		<div id="Container">
-
-		</div>
+		<section>
+			<div id="Overview"></div>
+			<div id="Design"></div>
+			<div id="Hardware">
+				<div class="Parallax"></div>
+				test
+			</div>
+			<div id="Technology"></div>
+			<div id="Exclusives"></div>
+			<div id="Market"></div>
+			<div id="UIUX"></div>
+		<section>
+		<script>observer.observe(document.getElementById("Hardware"));</script>
 	</body>
 </html>

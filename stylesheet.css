@@ -1,9 +1,26 @@
+html{
+	scroll-behavior:smooth
+}
 body {
 	margin: 0;
 	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
 	background-color: gray;
 }
 
+/* Global */
+
+.centre {
+	margin:auto;
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+.bigSpace {
+	height:1000px;
+}
+
+/* Nav Bar */
 #navbar {
 	overflow: hidden;
 	background-color: #333;
@@ -20,11 +37,6 @@ body {
 	font-size: 17px;
 }
 
-.dropdown {
-	float: left;
-  	overflow: hidden;
-}
-
 #navbar a:hover, .dropdown:hover a {
 	background-color: #ddd;
 	color: black;
@@ -35,6 +47,7 @@ body {
 	color: blue;
 }
 
+/* Drop Down */
 #More a {
 	font-size: 17px;  
 	border: none;
@@ -44,6 +57,11 @@ body {
 	background-color: inherit;
 	font-family: inherit;
 	margin: 0;
+}
+
+.dropdown {
+	float: left;
+  	overflow: hidden;
 }
 
 .DropDownItem {
@@ -68,17 +86,70 @@ body {
 	display: block;
 }
 
-.centre {
-	margin:auto;
-	display: block;
-	margin-left: auto;
-  	margin-right: auto;
+/* Home Page */
+#Overview {
+	
 }
+
+#Design {
+	height:1000px;
+	background-color:blue;
+}
+
+#Hardware{
+	height: 1200px;
+}
+
+.Parallax {
+	height:100%;
+	background-image: url("Images/Homepage/Hardware.jpg");
+	background-attachment: fixed;
+	background-position: center;
+  	background-repeat: no-repeat;
+	background-size: 3000px;
+}
+
+#Technology {
+	background-image: url("Images/Homepage/controllers.png");
+	background-attachment: fixed;
+	background-position: center;
+  	background-repeat: no-repeat;
+	background-size: cover;
+	height:1080px;
+}
+
+#Exclusives {
+	height:1080px;
+}
+
+#Market {
+
+}
+
+#UIUX {
+
+}
+
+/* Sub Pages */
 
 #Container {
 	width: 90%;
 	height: auto;
 	margin: auto;
+}
+
+#ps {
+	float:left;
+	background: linear-gradient(100deg,rgba(15,60,189,1) 60%, rgb(29, 76, 231) 80%, rgba(15,60,189,1) 81%, rgba(15,60,189,1) 97%);
+	width:50%;
+	height:100%;
+	background-repeat: repeat-y;
+}
+#xbox {
+	float:right;
+	background: linear-gradient(45deg, rgba(0,0,0,.9) 0%, rgba(33,33,33,0.9) 100%);
+	width:50%;
+	height:100%;
 }
 
 .Logo {
@@ -105,18 +176,4 @@ body {
 
 .content h1 {
 	font-size: 24pt;
-}
-
-#ps {
-	float:left;
-	background: linear-gradient(100deg,rgba(15,60,189,1) 60%, rgb(29, 76, 231) 80%, rgba(15,60,189,1) 81%, rgba(15,60,189,1) 97%);
-	width:50%;
-	height:100%;
-	background-repeat: repeat-y;
-}
-#xbox {
-	float:right;
-	background: linear-gradient(45deg, rgba(0,0,0,.9) 0%, rgba(33,33,33,0.9) 100%);
-	width:50%;
-	height:100%;
 }
