@@ -98,7 +98,6 @@ slide:nth-child(8){
 slide p {
  font-family: Comfortaa;
  font-size: 70px;
- text-align: 
  display: inline-block;
  width: 100%;
  margin-top: 340px;
@@ -106,10 +105,11 @@ slide p {
 }
 
 @keyframes slide {
- 0% { left: 100%; width: 100%; }
- 5% { left: 0%; }
- 25% { left: 0%; }
- 30% { left: -100%; width: 100%; }
- 30.0001% { left: -100%; width: 0%; }
- 100% { left: 100%; width: 0%; }
+ 0% { left: 100%; width: 100%; opacity: 0;}
+ 5% { left: 0%; opacity: 1;}
+ 12% { left: 0%; opacity: 1;}
+ 17% { left: -100%; opacity: 0;}
+ 30% { left: -100%; width: 100%; opacity: 0;}
+ 30.0001% { left: -100%; width: 0%; opacity: 0;}
+ 100% { left: 100%; width: 0%; opacity: 0;}
 }
