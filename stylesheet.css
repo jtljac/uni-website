@@ -98,15 +98,19 @@ body {
 
 #Hardware{
 	height: 1200px;
+	position: relative;
 }
 
-.Parallax {
-	height:100%;
+#Parallax {
+	height:1500px;
+	width: 100%;
+	z-index: -100;
 	background-image: url("Images/Homepage/Hardware.jpg");
 	background-attachment: fixed;
 	background-position: center;
   	background-repeat: no-repeat;
 	background-size: 3000px;
+	position: absolute;
 }
 
 #Technology {
@@ -168,6 +172,8 @@ body {
 	color: white;
 	background-color: rgba(5,5,5,.1);
 	padding: 1px 5px;
+	z-index: 100;
+	position: relative;
 }
 
 .content img{
