@@ -1,7 +1,11 @@
+HomePage:
+Hardware: https://www.xbox.com/en-GB/xbox-one-x
+Controllers: https://imgur.com/gallery/K93Oh
+
+
 Xbox:
 Xbox Original:
-logo: 
-https://xbox.fandom.com/wiki/Xbox_(console)
+logo: https://xbox.fandom.com/wiki/Xbox_(console)
 Images:
 Full View: https://commons.wikimedia.org/wiki/File:Xbox-console.jpg
 Duke Controller: https://commons.wikimedia.org/wiki/File:Xbox-Duke-Controller.jpg
@@ -22,8 +26,7 @@ S:
 E:
 
 Xbox One:
-logo: 
-https://en.wikipedia.org/wiki/File:Xbox_One_logo_wordmark.svg
+logo: https://en.wikipedia.org/wiki/File:Xbox_One_logo_wordmark.svg
 Images:
 Xbox One Original:
 Full View: https://www.t3.com/reviews/xbox-one-review
@@ -40,13 +43,10 @@ Full View: https://www.xbox.com/en-US/xbox-one-x
 
 Playstation:
 PS2:
-logo: 
-https://commons.wikimedia.org/wiki/File:PlayStation_2_logo.svg
+logo: https://commons.wikimedia.org/wiki/File:PlayStation_2_logo.svg
 
 PS3:
-logo: 
-https://commons.wikimedia.org/wiki/File:PlayStation_3_Logo_neu.svg
+logo: https://commons.wikimedia.org/wiki/File:PlayStation_3_Logo_neu.svg
 
 PS4:
-logo: 
-https://commons.wikimedia.org/wiki/File:PlayStation_4_logo_and_wordmark.svg
+logo: https://commons.wikimedia.org/wiki/File:PlayStation_4_logo_and_wordmark.svg
