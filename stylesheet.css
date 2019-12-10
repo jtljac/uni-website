@@ -85,9 +85,40 @@ body {
 	display: block;
 }
 
+.dropdown:active .DropDownItem {
+	display: block;
+}
+
 section {
 	position:relative;
-	z-index: 10
+	z-index: 0
+}
+
+@media only screen and (max-device-width: 480px){
+	#navbar {
+		display:block;
+		background-color: #333;
+		overflow: hidden;
+		height: max-content;
+		width:100%;
+		position: unset;
+	}
+
+	#navbar a {
+		display:block;
+		color: #f2f2f2;
+		margin: 0px 20px;
+		text-align: center;
+		text-decoration: none;
+		font-size: 17px;
+		padding: 20px 0px;
+		float: none;
+	}
+
+	#navbar a.active {
+		background-color: #4CAF50;
+		color: blue;
+	}
 }
 
 /* Home Page */
@@ -118,6 +149,7 @@ section {
 }
 
 #Technology {
+	background-color: gray;
 	background-image: url("Images/Homepage/controllers.png");
 	background-attachment: fixed;
 	background-position: center;
@@ -193,7 +225,7 @@ section {
 	color: white;
 	background-color: rgba(5,5,5,.1);
 	padding: 1px 5px;
-	z-index: 100;
+	z-index: 0;
 	position: relative;
 }
 
