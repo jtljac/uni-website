@@ -104,7 +104,7 @@ function resizeElements(){
 		}
 		if (alsoMore){
 			var more = createDropDown();
-			for (i = possibleLength; i <= 6; i++){
+			for (i = possibleLength + 1; i <= 6; i++){
 				newItem = document.createElement("a");
 				newItem.setAttribute("href", items[i][0]);
 				newItem.innerHTML = items[i][1];
