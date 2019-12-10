@@ -22,7 +22,7 @@ body {
 
 /* Nav Bar */
 #navbar {
-	overflow: hidden;
+	overflow: visible;
 	background-color: #333;
 	width:100%;
 	position:fixed;
@@ -62,14 +62,14 @@ body {
 
 .dropdown {
 	float: left;
+  	overflow: visible;
 }
 
 .DropDownItem {
-	display: block;
+	display: none;
 	position: absolute;
 	background-color: #333;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	padding: 12px 16px;
 	z-index: 101;
 }
 
