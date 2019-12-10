@@ -11,13 +11,13 @@ const sizes = {
 	"UI/UX":792
 };
 const items = [
-	["#Overview","Overview"],
-	["#Design", "Design"],
-	["#Hardware", "Hardware"],
-	["#Technology", "Technology"],
-	["#Exclusives", "Exclusives"],
-	["#Market", "Market Distribution"],
-	["#UIUX", "UI/UX"]
+	["#Overview","../index.html" ,"Overview"],
+	["#Design", "../199019088/Design.html", "Design"],
+	["#Hardware", "../199026286/Hardware.html","Hardware"],
+	["#Technology", "..//Technology.html", "Technology"],
+	["#Exclusives", "..//Eclusives.HTML", "Exclusives"],
+	["#Market","..//Market.html", "Market Distribution"],
+	["#UIUX", "..//UIUX.html", "UI/UX"]
 ]
   
   
@@ -42,7 +42,7 @@ function createDropDown(){
 	return content;
 }
 
-function resizeElements(){
+function resizeElements(link){
 	var width = window.innerWidth;
 	if(previousWidth != width || currentItem == -1){
 		var possibleLength = currentItem;
@@ -95,19 +95,24 @@ function resizeElements(){
 
 		var navbar = document.getElementById("navbar");
 		navbar.innerHTML = "";
-		var i, newItem;
+		var i, index, newItem;
+		if (link){
+			index = 0
+		} else {
+			index = 1
+		}
 		for (i = 0; i <= possibleLength; i++){
 			newItem = document.createElement("a");
-			newItem.setAttribute("href", items[i][0]);
-			newItem.innerHTML = items[i][1];
+			newItem.setAttribute("href", items[i][index]);
+			newItem.innerHTML = items[i][2];
 			navbar.appendChild(newItem);
 		}
 		if (alsoMore){
 			var more = createDropDown();
 			for (i = possibleLength + 1; i <= 6; i++){
 				newItem = document.createElement("a");
-				newItem.setAttribute("href", items[i][0]);
-				newItem.innerHTML = items[i][1];
+				newItem.setAttribute("href", items[i][index]);
+				newItem.innerHTML = items[i][2];
 				more.appendChild(newItem);
 			}
 		}

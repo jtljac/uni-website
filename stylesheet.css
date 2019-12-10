@@ -50,19 +50,17 @@ body {
 
 /* Drop Down */
 #More a {
-	font-size: 17px;  
-	border: none;
-	outline: none;
+	font-size: 17px;
 	color: white;
 	padding: 14px 16px;
 	background-color: inherit;
 	font-family: inherit;
-	margin: 0;
+	z-index: 101;
 }
 
 .dropdown {
 	float: left;
-  	overflow: visible;
+  	overflow: hidden;
 }
 
 .DropDownItem {
@@ -75,6 +73,7 @@ body {
 
 .DropDownItem a {
 	float: none;
+	min-width: 200px;
 	text-align: left;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -163,12 +162,29 @@ section {
 
 .Logo {
 	width:95%;
-	padding: 0px 10px;
+	padding: 20px 0px;
 }
 
-.LogoTop {
-	width:95%;
-	padding-top: 100px;
+.theHeader {
+	background: rgba(33,33,33,0.9);
+	margin: 0px;
+}
+
+.theHeader p {
+	margin: 0px;
+	padding: 5px;
+	color: white;
+}
+
+.theFooter {
+	background: rgba(33,33,33,0.9);
+	margin: 0px;
+}
+
+.theFooter p {
+	margin: 0px;
+	padding: 5px;
+	color: white;
 }
 
 .content {
