@@ -2,7 +2,6 @@ html{
 	scroll-behavior:smooth
 }
 body {
-	margin: 0;
 	font-family: Open Sans ,Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
 	background-color: black;
 }
@@ -183,8 +182,9 @@ section {
 
 #Container {
 	width: 90%;
-	height: auto;
+	height: fit-content;
 	margin: auto;
+	overflow: hidden;
 }
 
 #ps {
@@ -199,6 +199,26 @@ section {
 	background: linear-gradient(45deg, rgba(0,0,0,.9) 0%, rgba(33,33,33,0.9) 100%);
 	width:50%;
 	height:100%;
+}
+
+@media only screen and (max-device-width: 480px){
+	#xbox {
+		width:100%;
+		float: none;
+	}
+	#ps {
+		width:100%;
+		float: none;
+	}
+	.Content-Aligner{
+		height:fit-content !important;
+	}
+	div.content {
+		font-size: 14px !important;
+	}
+	#Container {
+		width: 100%;
+	}
 }
 
 .Logo {
@@ -270,9 +290,10 @@ section {
 
 
 @media screen and (min-width: 601px) {
-  div.theFooter {
-    font-size: 14px
-    } }
+	div.theFooter {
+    	font-size: 14px
+	} 
+}
 
 @media screen and (max-width: 600px) {
   div.theFooter {
