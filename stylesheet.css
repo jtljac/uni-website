@@ -215,7 +215,10 @@ section {
 	}
 	div.content {
 		font-size: 14px !important;
-	  }
+	}
+	#Container {
+		width: 100%;
+	}
 }
 
 .Logo {
