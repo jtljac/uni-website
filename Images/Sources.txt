@@ -43,7 +43,7 @@ Xbox One X:
 Full View: https://www.xbox.com/en-US/xbox-one-x
 
 Xbox logo:
-logo: https://i7.pngguru.com/preview/203/334/521/xbox-360-logo-xbox-png-picture.jpg
+logo: https://1000logos.net/wp-content/uploads/2018/08/Xbox-Logo.png
 
 
 Playstation:

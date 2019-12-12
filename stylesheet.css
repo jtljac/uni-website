@@ -128,7 +128,12 @@ section {
 
 #Design {
 	height:1000px;
-	background-color:blue;
+	background-image: url("Images/Homepage/Design.jpg");
+	background-attachment: fixed;
+	background-position: center;
+  	background-repeat: no-repeat;
+	background-size: cover;
+	height:1080px;
 }
 
 #Hardware{
@@ -163,7 +168,7 @@ section {
 }
 
 #Market {
-	background-image: url("Images/Homepage/market1.png");
+	background-image: url("Images/Homepage/market.png");
 	background-attachment:fixed;
 	background-position:center;
 	background-repeat: no repeat;
@@ -260,6 +265,5 @@ section {
 }
 
 .content h2 {
-	font-size: 24pt;
 	color: white;
 }
