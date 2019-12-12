@@ -164,6 +164,11 @@ section {
 
 #Exclusives {
 	height:1080px;
+	background-image: url("Images/Homepage/Exclusive summary.jpg");
+	background-attachment: fixed;
+	background-position: center;
+  	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #Market {
