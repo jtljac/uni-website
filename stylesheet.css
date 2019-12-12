@@ -3,8 +3,8 @@ html{
 }
 body {
 	margin: 0;
-	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
-	background-color: gray;
+	font-family: Open Sans ,Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+	background-color: black;
 }
 
 /* Global */
@@ -128,7 +128,12 @@ section {
 
 #Design {
 	height:1000px;
-	background-color:blue;
+	background-image: url("Images/Homepage/Design.jpg");
+	background-attachment: fixed;
+	background-position: center;
+  	background-repeat: no-repeat;
+	background-size: cover;
+	height:1080px;
 }
 
 #Hardware{
@@ -163,7 +168,7 @@ section {
 }
 
 #Market {
-	background-image: url("Images/Homepage/market1.png");
+	background-image: url("Images/Homepage/market.png");
 	background-attachment:fixed;
 	background-position:center;
 	background-repeat: no repeat;
@@ -214,12 +219,30 @@ section {
 
 .theFooter {
 	background: rgba(33,33,33,0.9);
-	margin: 0px;
+	margin: auto;
+	width: 90%;
 }
+.theFooter ul {
+	color: white;
+	margin: 5px;
+
+}
+.theFooter h2 {
+	color: white;
+	margin: 2px;
+
+}
+	
+
 
 .theFooter p {
-	margin: 0px;
+	margin: 5px;
 	padding: 5px;
+	color: white;
+	
+}
+
+.theFooter h2 {
 	color: white;
 }
 
@@ -239,4 +262,8 @@ section {
 
 .content h1 {
 	font-size: 24pt;
+}
+
+.content h2 {
+	color: white;
 }

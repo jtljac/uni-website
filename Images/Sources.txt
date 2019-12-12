@@ -33,6 +33,7 @@ Full View: https://www.t3.com/reviews/xbox-one-review
 Full View Kinect: https://www.tomsguide.com/us/xbox-one,review-1948.html
 Controller: https://www.hachi.tech/accessories-showroom/toys-gaming-accessories/xbox-accessories/xbox-one-bluetooth-controller-nottingham-black--0889842114607
 
+
 Xbox One S:
 Full View: https://www.microsoft.com/en-gb/p/xbox-one-s-console/8w2g2zfh0dnx
 Size Comparison: https://www.forbes.com/sites/gordonkelly/2016/11/10/microsoft-xbox-one-vs-xbox-one-s-whats-the-difference/
@@ -40,6 +41,10 @@ Size Comparison: https://www.forbes.com/sites/gordonkelly/2016/11/10/microsoft-x
 
 Xbox One X:
 Full View: https://www.xbox.com/en-US/xbox-one-x
+
+Xbox logo:
+logo: https://1000logos.net/wp-content/uploads/2018/08/Xbox-Logo.png
+
 
 Playstation:
 PS2:
@@ -50,3 +55,6 @@ logo: https://commons.wikimedia.org/wiki/File:PlayStation_3_Logo_neu.svg
 
 PS4:
 logo: https://commons.wikimedia.org/wiki/File:PlayStation_4_logo_and_wordmark.svg
+
+Playstation Logo:
+logo: https://i.pinimg.com/736x/fb/76/5b/fb765b8752d50de50cfa15203f9a7acd--awesome-logos-games-online.jpg
