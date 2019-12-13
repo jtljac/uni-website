@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
 	<title>Xbox vs Playstation: Technologies</title>
+    <link href="../stylesheet.css" rel="stylesheet" />
 	<link href="style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open%20Sans" rel="stylesheet">
+    <script src="../Javascript/autoResize.js"></script>
+    <script src="../Javascript/navbarOpacity.js"></script>
+    <script>
+    window.onscroll = function() {
+        setNavOpacity();
+    };
+    </script>
 </head>
-<body>
+	<body onresize="resizeElements(false)" onload="resizeElements(false)">
+		<nav>
+			<div id="navbar">
+			</div>
+		</nav>
+		<div class="navDrop"></div>
 	<div id="Container">
 	<div id="ps">
 	<img class="centre ps2Logo" src="images/PS2-logo.png" alt="Playstation Logo"/>
