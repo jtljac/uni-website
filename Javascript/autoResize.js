@@ -18,7 +18,7 @@ const items = [
 	["#Technology", "../199045436/Technology.html", "Technology"],
 	["#Exclusives", "../199021534/Exclusives.HTML", "Exclusives"],
 	["#Market","../199028083/Market.html", "Market Distribution"],
-	["#UIUX", "..//UIUX.html", "UI/UX"]
+	["#UIUX", "../199027659/UIUX.html", "UI/UX"]
 ]
   
   
