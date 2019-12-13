@@ -206,8 +206,12 @@ section {
 
 /* Home Page */
 #Overview {
-	height: 1200px;
+	height: 1080px;
 	position: relative;
+	background-image: url("Images/Homepage/clash.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #Design {
@@ -258,14 +262,13 @@ section {
 
 #Market {
 	background-image: url("Images/Homepage/market.png");
-	background-attachment:fixed;
 	background-position:center;
 	background-repeat: no repeat;
 	height:1080px;	
 }
 
 #UIUX {
-	/* background-image: url("Images/Homepage/market.png"); */
+	background-image: url("Images/Homepage/UIUX.png");
 	background-attachment:fixed;
 	background-position:center;
 	background-repeat: no repeat;
