@@ -2,7 +2,6 @@ html{
 	scroll-behavior:smooth
 }
 body {
-	margin: 0;
 	font-family: Open Sans ,Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
 	background-color: black;
 }
@@ -13,11 +12,91 @@ body {
 	margin:auto;
 	display: block;
 	margin-left: auto;
-  	margin-right: auto;
+	margin-right: auto;
 }
 
 .bigSpace {
 	height:1000px;
+}
+
+.navDrop{
+	height: 50px;
+}
+
+.hiddenLink, .hiddenLink:visited, .hiddenLink:active {
+	text-decoration: none;
+	color: white; 
+}
+
+.theHeader {
+	background: black;
+	margin: 0px;
+}
+
+.theHeader p {
+	margin: 0px;
+	padding: 5px;
+	color: white;
+}
+
+.theFooter {
+	background: black;
+	margin: auto;
+	width: 90%;
+	font-size: 14px;
+}
+.theFooter ul {
+	color: white;
+	margin: 5px;
+
+}
+.theFooter h2 {
+	color: white;
+	margin: 2px;
+
+}
+
+.theFooter p {
+	margin: 5px;
+	padding: 5px;
+	color: white;
+	
+}
+
+.theFooter h2 {
+	color: white;
+}
+
+.content {
+	margin:auto;
+	width: 95%;
+	color: white;
+	background-color: rgba(5,5,5,.1);
+	padding: 1px 5px;
+	font-size: 14px;
+	z-index: 0;
+	position: relative;
+}
+
+.content img{
+	width:90%;
+}
+
+.content h1 {
+	font-size: 24pt;
+}
+
+.content h2 {
+	color: white;
+}
+
+@media screen and (max-width: 600px) {
+	.theFooter {
+		font-size: 12px;
+	}
+	.content {
+		font-size: 12px;
+	}
 }
 
 /* Nav Bar */
@@ -119,11 +198,16 @@ section {
 		background-color: #4CAF50;
 		color: blue;
 	}
+
+	.navDrop{
+		height: 0px;
+	}
 }
 
 /* Home Page */
 #Overview {
-	
+	height: 1200px;
+	position: relative;
 }
 
 #Design {
@@ -165,6 +249,11 @@ section {
 
 #Exclusives {
 	height:1080px;
+	background-image: url("Images/Homepage/Exclusive-summary.jpg");
+	background-attachment: fixed;
+	background-position: center;
+  	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #Market {
@@ -176,15 +265,70 @@ section {
 }
 
 #UIUX {
+	/* background-image: url("Images/Homepage/market.png"); */
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat: no repeat;
+	height:1080px;
+}
 
+.indexHeading{
+	color: white;
+	width:fit-content;
+	margin:auto;
+	text-align: center;
+	background-color: rgba(5,5,5,.2);
+	font-size: 30pt;
+	padding: 5px 50px;
+}
+
+.indexContent {
+	float: left;
+	width: 50%;
+	left:10%;
+	top: 200px;
+	color: white;
+	background-color: rgba(5,5,5,.2);
+	font-size: 20pt;
+	padding: 20px 5px;
+	z-index: 0;
+	position: relative;
+}
+
+.indexContentRight {
+	float: right;
+	width: 50%;
+	right:10%;
+	top: 200px;
+	color: white;
+	background-color: rgba(5,5,5,.2);
+	font-size: 20pt;
+	padding: 20px 5px;
+	z-index: 0;
+	position: relative;
+}
+
+@media only screen and (max-device-width: 480px){
+	.indexHeading{
+		font-size: 20pt;
+	}
+	
+	.indexContent {
+		text-align: center;
+		width: 100%;
+		left: unset;
+		top: unset;
+		font-size: 12pt;
+		padding: 10px 0px;
+	}
 }
 
 /* Sub Pages */
-
 #Container {
 	width: 90%;
-	height: auto;
+	height: fit-content;
 	margin: auto;
+	overflow: hidden;
 }
 
 #ps {
@@ -206,64 +350,22 @@ section {
 	padding: 20px 0px;
 }
 
-.theHeader {
-	background: rgba(33,33,33,0.9);
-	margin: 0px;
-}
-
-.theHeader p {
-	margin: 0px;
-	padding: 5px;
-	color: white;
-}
-
-.theFooter {
-	background: black;
-	margin: auto;
-	width: 90%;
-}
-.theFooter ul {
-	color: white;
-	margin: 5px;
-
-}
-.theFooter h2 {
-	color: white;
-	margin: 2px;
-
-}
-	
-
-
-.theFooter p {
-	margin: 5px;
-	padding: 5px;
-	color: white;
-	
-}
-
-.theFooter h2 {
-	color: white;
-}
-
-.content {
-	margin:auto;
-	width: 95%;
-	color: white;
-	background-color: rgba(5,5,5,.1);
-	padding: 1px 5px;
-	z-index: 0;
-	position: relative;
-}
-
-.content img{
-	width:90%;
-}
-
-.content h1 {
-	font-size: 24pt;
-}
-
-.content h2 {
-	color: white;
+@media only screen and (max-device-width: 480px){
+	#xbox {
+		width:100%;
+		float: none;
+	}
+	#ps {
+		width:100%;
+		float: none;
+	}
+	.Content-Aligner{
+		height:fit-content !important;
+	}
+	div.content {
+		font-size: 14px !important;
+	}
+	#Container {
+		width: 100%;
+	}
 }
