@@ -12,11 +12,20 @@ body {
 	margin:auto;
 	display: block;
 	margin-left: auto;
-  	margin-right: auto;
+	margin-right: auto;
 }
 
 .bigSpace {
 	height:1000px;
+}
+
+.navDrop{
+	height: 50px;
+}
+
+.hiddenLink, .hiddenLink:visited, .hiddenLink:active {
+	text-decoration: none;
+	color: white; 
 }
 
 /* Nav Bar */
@@ -122,7 +131,8 @@ section {
 
 /* Home Page */
 #Overview {
-	
+	height: 1200px;
+	position: relative;
 }
 
 #Design {
@@ -164,7 +174,7 @@ section {
 
 #Exclusives {
 	height:1080px;
-	background-image: url("Images/Homepage/Exclusive summary.jpg");
+	background-image: url("Images/Homepage/Exclusive-summary.jpg");
 	background-attachment: fixed;
 	background-position: center;
   	background-repeat: no-repeat;
@@ -180,7 +190,48 @@ section {
 }
 
 #UIUX {
+	/* background-image: url("Images/Homepage/market.png"); */
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat: no repeat;
+	height:1080px;
+}
 
+.indexHeading{
+	color: white;
+	width:fit-content;
+	margin:auto;
+	text-align: center;
+	background-color: rgba(5,5,5,.2);
+	font-size: 30pt;
+	padding: 5px 50px;
+}
+
+.indexContent {
+	float: left;
+	width: 50%;
+	left:10%;
+	top: 200px;
+	color: white;
+	background-color: rgba(5,5,5,.2);
+	font-size: 20pt;
+	padding: 20px 5px;
+	z-index: 0;
+	position: relative;
+}
+@media only screen and (max-device-width: 480px){
+	.indexHeading{
+		font-size: 20pt;
+	}
+	
+	.indexContent {
+		text-align: center;
+		width: 100%;
+		left: unset;
+		top: unset;
+		font-size: 12pt;
+		padding: 10px 0px;
+	}
 }
 
 /* Sub Pages */
