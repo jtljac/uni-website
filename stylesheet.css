@@ -127,6 +127,10 @@ section {
 		background-color: #4CAF50;
 		color: blue;
 	}
+
+	.navDrop{
+		height: 0px;
+	}
 }
 
 /* Home Page */
@@ -211,6 +215,19 @@ section {
 	float: left;
 	width: 50%;
 	left:10%;
+	top: 200px;
+	color: white;
+	background-color: rgba(5,5,5,.2);
+	font-size: 20pt;
+	padding: 20px 5px;
+	z-index: 0;
+	position: relative;
+}
+
+.indexContentRight {
+	float: right;
+	width: 50%;
+	right:10%;
 	top: 200px;
 	color: white;
 	background-color: rgba(5,5,5,.2);
