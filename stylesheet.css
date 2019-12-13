@@ -286,7 +286,7 @@ section {
 	float: left;
 	width: 50%;
 	left:10%;
-	top: 200px;
+	top: 100px;
 	color: white;
 	background-color: rgba(5,5,5,.2);
 	font-size: 20pt;
@@ -297,9 +297,10 @@ section {
 
 .indexContentRight {
 	float: right;
+	text-align: right;
 	width: 50%;
 	right:10%;
-	top: 200px;
+	top: 100px;
 	color: white;
 	background-color: rgba(5,5,5,.2);
 	font-size: 20pt;
