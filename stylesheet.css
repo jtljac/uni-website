@@ -28,6 +28,77 @@ body {
 	color: white; 
 }
 
+.theHeader {
+	background: black;
+	margin: 0px;
+}
+
+.theHeader p {
+	margin: 0px;
+	padding: 5px;
+	color: white;
+}
+
+.theFooter {
+	background: black;
+	margin: auto;
+	width: 90%;
+	font-size: 14px;
+}
+.theFooter ul {
+	color: white;
+	margin: 5px;
+
+}
+.theFooter h2 {
+	color: white;
+	margin: 2px;
+
+}
+
+.theFooter p {
+	margin: 5px;
+	padding: 5px;
+	color: white;
+	
+}
+
+.theFooter h2 {
+	color: white;
+}
+
+.content {
+	margin:auto;
+	width: 95%;
+	color: white;
+	background-color: rgba(5,5,5,.1);
+	padding: 1px 5px;
+	font-size: 14px;
+	z-index: 0;
+	position: relative;
+}
+
+.content img{
+	width:90%;
+}
+
+.content h1 {
+	font-size: 24pt;
+}
+
+.content h2 {
+	color: white;
+}
+
+@media screen and (max-width: 600px) {
+	.theFooter {
+		font-size: 12px;
+	}
+	.content {
+		font-size: 12px;
+	}
+}
+
 /* Nav Bar */
 #navbar {
 	overflow: visible;
@@ -236,6 +307,7 @@ section {
 	z-index: 0;
 	position: relative;
 }
+
 @media only screen and (max-device-width: 480px){
 	.indexHeading{
 		font-size: 20pt;
@@ -252,7 +324,6 @@ section {
 }
 
 /* Sub Pages */
-
 #Container {
 	width: 90%;
 	height: fit-content;
@@ -274,6 +345,11 @@ section {
 	height:100%;
 }
 
+.Logo {
+	width:95%;
+	padding: 20px 0px;
+}
+
 @media only screen and (max-device-width: 480px){
 	#xbox {
 		width:100%;
@@ -292,95 +368,4 @@ section {
 	#Container {
 		width: 100%;
 	}
-}
-
-.Logo {
-	width:95%;
-	padding: 20px 0px;
-}
-
-.theHeader {
-	background: black;
-	margin: 0px;
-}
-
-.theHeader p {
-	margin: 0px;
-	padding: 5px;
-	color: white;
-}
-
-.theFooter {
-	background: black;
-	margin: auto;
-	width: 90%;
-}
-.theFooter ul {
-	color: white;
-	margin: 5px;
-
-}
-.theFooter h2 {
-	color: white;
-	margin: 2px;
-
-}
-	
-
-
-.theFooter p {
-	margin: 5px;
-	padding: 5px;
-	color: white;
-	
-}
-
-.theFooter h2 {
-	color: white;
-}
-
-.content {
-	margin:auto;
-	width: 95%;
-	color: white;
-	background-color: rgba(5,5,5,.1);
-	padding: 1px 5px;
-	z-index: 0;
-	position: relative;
-}
-
-.content img{
-	width:90%;
-}
-
-.content h1 {
-	font-size: 24pt;
-}
-
-.content h2 {
-	color: white;
-}
-
-
-@media screen and (min-width: 601px) {
-	div.theFooter {
-    	font-size: 14px
-	} 
-}
-
-@media screen and (max-width: 600px) {
-  div.theFooter {
-    font-size: 12px;
-  }
-}
-@media screen and (min-width: 601px) {
-  div.content {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  div.content {
-    font-size: 12px;
-  }
 }
